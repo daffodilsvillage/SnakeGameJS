@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(57, 57, 57);
+  font-style: Arial;
+}
+body {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+}
+#gameContainer {
+  text-align: center;
+  align-items: center;
+}
+.dash{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 10px;
+}
+
+#score {
+  font-size: 25px;
+  color: rgb(217, 217, 217);
+}
+#startBtn {
+  font-size: 16px;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(217, 217, 217);
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
